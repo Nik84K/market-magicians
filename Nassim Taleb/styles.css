@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+section{
+  max-width: 1440px;
+  height: 50vh;
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgba(8, 17, 49, 0.8);
+}
+
+.image-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name_Taleb{
+    font-family: rubik;
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: aliceblue;
+}
+
+.name_Taleb span{
+    font-family: rubik;
+    font-size: 18px;
+}
+
+img{
+    margin: 5px 5px;
+}
+
+.article_1-text{
+    font-family: work sans;
+    font-size: 19px;
+    line-height: 300%;
+    letter-spacing: 0%;
+    padding: 25px 0 0 25px;
+    color: aliceblue;
+}

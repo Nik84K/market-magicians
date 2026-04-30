@@ -1,0 +1,189 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+li{
+  list-style: none;
+}
+
+section{
+  max-width: 1440px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgba(169,235,226,0.2);
+}
+
+.name_livermore{
+    font-family: rubik;
+    font-size: 28px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.name_livermore span{
+    font-family: rubik;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.image-text{
+    display: flex;
+    flex-direction: row;
+}
+
+.image-text-article{
+  background-image: url(../images/Japanese-candlestick.png.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+.article_1-text{
+    font-family: Work sans;
+    font-size: 18px;
+    line-height: 220%;
+    letter-spacing: 0%;
+    padding-left: 20px;
+    color: aliceblue;
+}
+
+.article_2-text{
+    font-family: syne mono;
+    font-size: 17px;
+    line-height: 164%;
+    letter-spacing: 0%;
+    padding: 20px 30px 0 30px;
+}
+
+.article_3-text_item{
+   font-family: noto serif;
+   font-size: 16px;
+   font-weight: 400;
+   font-style: normal;
+   line-height: 180%;
+   letter-spacing: 0%;
+}
+
+.article_3-text_item::before{
+    content: "\26aa";
+    margin-right: 10px;
+}
+
+.article_3{
+    margin-top: 35px;
+}
+
+.article_3-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.article_3-title{
+    margin-left: 70px;
+    font-family: rubik;
+    font-size: 26px;
+    font-weight: 450;
+    text-transform: uppercase;
+    color: #076155;
+}
+
+.article_3-text{
+    margin-top: 15px;
+    width: 110vh;
+}
+
+.article_3-1-text{
+   font-family: rubik;
+   font-size: 20px;
+   font-weight: 300;
+   line-height: 180%;
+   letter-spacing: 0%;
+   width: 170vh;
+   margin-right: 30px;
+   color: #6C4A01;
+}
+
+.article_4-title,
+.article_5-title{
+    margin-left: 70px;
+    font-family: rubik;
+    font-size: 26px;
+    font-weight: 450;
+    text-transform: uppercase;
+    margin-top: 35px;
+    color: #076155;
+}
+
+.article_4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    margin-top: 15px;
+    gap: 80px;
+    background-image: url(../images/pasted-from-clipboard.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.article_4-subtitle{
+    font-family: rubik;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    color: #4F0000;
+}
+
+.article_4-text{
+    font-family: syne mono;
+    width: 380px;
+    text-align: center;
+}
+
+.article_4-text_item{
+    padding-bottom: 10px;
+}
+
+.article_5-title_2{
+    margin-left: 40px;
+    font-family: rubik;
+    font-size: 20x;
+    font-weight: 450;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: #076155;
+}
+
+.article_5{
+    margin-left: 20px;
+}
+
+.article_5-subtitle{
+    font-family: Work sans;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin: 10px 0 5px;
+    color: #023F37;
+}
+
+.article_5-text{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+     line-height: 100%;
+    letter-spacing: 0%;
+}
+
+footer{
+  max-width: 1440px;
+  height: 50px;
+  margin: auto;
+  background-color: rgba(169,235,226,0.4);
+}

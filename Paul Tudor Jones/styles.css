@@ -1,0 +1,72 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+section{
+  max-width: 1440px;
+  height: 65vh;
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgba(8, 17, 49, 0.3);
+}
+
+img{
+    margin-left: 10px ;
+}
+
+.image-text-article{
+    background-image: url(../images/candlestick-chart-icon-stock-exchange-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 680px;
+    height: 520px;
+    mix-blend-mode: multiply;
+}
+
+.image-text{
+    display: flex;
+    flex-direction: row;
+}
+
+.name_Jones{
+    font-family: rubik;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.name_Jones span{
+    font-family: rubik;
+    font-size: 18px;
+}
+
+.article_1-text{
+    font-family: work sans;
+    font-size: 19px;
+    line-height: 300%;
+    letter-spacing: 0%;
+    padding: 5px 0 0 25px;
+}
+
+.comment_text{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 0 0 40px;
+}
+
+.article_2-text{
+    font-family: rubik;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 25px 30px 0 30px; 
+}
+
+.article_3-text{
+    font-family: work sans;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    padding: 5px 25px 0 25px;
+}
